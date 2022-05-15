@@ -1,0 +1,125 @@
+body {
+    height: 1000px;
+    background: url(chef.jpeg);
+    background-repeat: no-repeat;
+    background-size: 130vw 145vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+
+.title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.buttons {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button-main {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: rgba(36, 136, 11, 0.8);
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+
+.button-main:hover {
+    background-color: rgb(36, 136, 11);
+    font-size: 35px;
+}
+
+.button-secondary {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: rgba(36, 136, 11, 0.8);
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.button-secondary:hover {
+    background-color: rgb(36, 136, 11);
+    font-size: 25px;
+}
+
+.smoothie-img,
+.grilled-img,
+.pbj-img {
+    height: 400px;
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.list-container {
+    display: flex;
+}
+
+ol,
+ul {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.ingredients,
+.steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 60px;
+}
+
+.ingredients h4 {
+    text-decoration: underline;
+}
+
+.steps h4 {
+    margin-right: 150px;
+    text-decoration: underline;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-around;  
+}
+
+
+
+
